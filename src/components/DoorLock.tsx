@@ -2,7 +2,10 @@ import React, {useState} from 'react';
 import c from './DoorLock.module.css'
 import {Answers} from "./Answers";
 
-export const DoorLock = () => {
+type DoorLockType = {
+    answers: Array<string>
+}
+export const DoorLock = (props: DoorLockType) => {
     const [lock, setLock] = useState<boolean>(true)
     const onClickHandler = () => {
         setLock(!lock)
@@ -17,7 +20,7 @@ export const DoorLock = () => {
                 <button onClick={onClickHandler}> close the answer</button>
                 ANSWER:
                 <div className={c.answers}>
-                    <Answers/>
+                    <Answers answers={props.answers}/>
                 </div>
             </div>)
 
