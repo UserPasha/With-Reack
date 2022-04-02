@@ -1,9 +1,17 @@
 .wrapper{
     width: 500px;
-   min-height: 400px;
+   min-height: 200px;
     border: 5px #101010 solid;
    margin: 0 auto;
     color: #095909; /* inherit */
+}
+.tags{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto; /* do not inherit */
+    background-color: #cbb62d;
+    display: flex;
+justify-content: space-between;
 }
 .title{
     width: 90%;
