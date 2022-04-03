@@ -1,7 +1,7 @@
 .door{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     min-height: 50px;
     padding: 20px;
     color: #fff;
@@ -10,11 +10,13 @@
 .door button{
     width:  80%;
     height: 30px;
-    margin: 10px auto;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 .answers{
     width: 110%;
     min-height: 100px;
     background-color: #fff;
     border: 3px #282c34 solid;
+    border-radius: 10px;
 }

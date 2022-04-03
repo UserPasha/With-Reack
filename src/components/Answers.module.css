@@ -4,5 +4,7 @@
     min-height: 20px;
     margin-top: 10px;
     color: black;
-background-color: #fc5bc3;
+    background-color:rgb(200, 103, 148);
+    text-align: left;
+    border-radius: 10px;
 }
