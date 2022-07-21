@@ -1,6 +1,7 @@
 import React from 'react';
 import c from "./InfoBoard.module.css"
 import {DoorLock} from "./DoorLock";
+import { answersNewType} from '../App';
 
 type InfoBoardType = {
     title: string

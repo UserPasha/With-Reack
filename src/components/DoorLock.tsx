@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import c from './DoorLock.module.css'
 import {Answers} from "./Answers";
+import { answersNewType } from '../App';
 
 type DoorLockType = {
     answers: Array<string>

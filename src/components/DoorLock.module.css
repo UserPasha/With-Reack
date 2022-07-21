@@ -4,7 +4,8 @@
     width: 90%;
     min-height: 50px;
     padding: 20px;
-    color: #fff;
+    /*color: #fff;*/
+    color: black;
     font-size: 22px;
 }
 .door button{

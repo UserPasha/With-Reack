@@ -1,10 +1,13 @@
 .item{
     display: block;
-    width: 100%;
+    max-width: 90%;
     min-height: 20px;
     margin-top: 10px;
     color: black;
     background-color:rgb(200, 103, 148);
     text-align: left;
     border-radius: 10px;
+}
+.x code pre p{
+    display: block;
 }

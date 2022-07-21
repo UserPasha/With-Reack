@@ -7,11 +7,15 @@ type AnswersType = {
 }
 
 export const Answers = (props: AnswersType) => {
-    const mappedAnswer = props.answers.map(m=>(<div className={c.item}>{m}</div>))
+    const mappedAnswer = props.answers.map(m => (<div className={c.item}> <pre>{m}  </pre>
+    </div>))
+
     return (
-        <div>
+
+        <div className={c.x}>
             {mappedAnswer}
         </div>
+
     );
 };
 
